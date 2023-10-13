@@ -55,7 +55,7 @@ function GUIMatlabVer2_OpeningFcn(hObject, eventdata, handles, varargin)
 
 % Choose default command line output for GUIMatlabVer2
 handles.output = hObject;
-load net64sgdm1;
+load net64sgdm1
 handles.net = net;
 axes1 = gca; 
 axes1.XAxis.Visible = 'off'; %remove x-axis
